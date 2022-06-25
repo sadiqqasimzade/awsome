@@ -1,0 +1,27 @@
+*::before::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.coloredsection {
+  background: rgb(247, 97, 92);
+  background: linear-gradient(
+    90deg,
+    rgba(247, 97, 92, 1) 0%,
+    rgba(253, 29, 29, 1) 100%
+  );
+}
+
+.py10 {
+  padding: 10% 0%;
+}
+
+.cc1 {
+  color: #f5593d;
+}
